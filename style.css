@@ -1,14 +1,32 @@
-body{
-    background: #2C2141;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
 }
 
-.main{
-    background: #F8F8F8;
-    border-radius: 16px;
-    width: 624px;
-    margin: 16px;
+body {
+  background: #2c2141;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.main {
+  background: #f8f8f8;
+  border-radius: 16px;
+  width: 624px;
+  margin: 16px;
+  padding: 32px;
+}
+
+.person{
+
+}
+
+.person__name{
+    
 }
